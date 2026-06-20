@@ -285,3 +285,26 @@ body{
     align-items: center;
 
 }
+/* Media Queries */
+
+@media screen  and (max-width:800px){
+    body{
+        font-size: 10px;
+    }  
+}
+@media screen  and (max-width:600px){
+    .recommendation_container-card{
+        flex-basis: 40%;
+    }
+    .destination_container-card{
+        flex-basis: 40%;
+
+    }
+    .Hotel_container-card{
+        flex-basis: 40%;
+
+    }
+    .Restaurants_container-card{
+        flex-basis: 40%;
+    }
+}
